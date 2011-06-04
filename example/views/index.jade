@@ -1,0 +1,14 @@
+- if (!readabilityauth.loggedIn)
+  h2 Not Authenticated
+
+  #readability-login
+    a(href = '/auth/readability') Log in with readability
+    
+- else
+  h2 Authenticated
+  - if (readabilityauth.readability)
+    h3 Readability User Data
+    p= JSON.stringify(readabilityauth.readability.user)
+
+  h3
+    a(href: '/logout') Logout
