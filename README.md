@@ -23,6 +23,12 @@ node server.js
 
 ```
 
+## Todo
+
+* Refactor to remove unnecessary code used only with several strategies at once.
+
+```
+
 ## Thanks to
 
 * [Brian Noguchi](https://github.com/bnoguchi) for everyauth on which this library is built.
