@@ -12,6 +12,7 @@ This template can be used to create [Node](http://nodejs.org) applications using
 ## Install
 
 ```
+
 # Install Node and npm
 
 git clone http://github.com/alfrednerstu/node-readability-auth.git [project-name]
@@ -26,8 +27,6 @@ node server.js
 ## Todo
 
 * Refactor to remove unnecessary code used only with several strategies at once.
-
-```
 
 ## Thanks to
 
